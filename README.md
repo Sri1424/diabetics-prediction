@@ -44,7 +44,7 @@ Accuracy Score
 
 Each model was trained on the training set and tested on unseen test data.
 
-✅_**__Results Summary___**
+✅**Results Summary**
 Each classifier's performance is printed during execution, including:
 Model name
 Confusion matrix
@@ -53,7 +53,7 @@ Accuracy score
 
 This helps in understanding which algorithm performs best for this dataset.
 
-**__Dependencies__**
+**Dependencies**
 Make sure the following Python libraries are installed:
 pandas
 numpy
@@ -64,7 +64,7 @@ scikit-learn
 You can install them using:
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-🚀_**_ How to Run_**_
+🚀**How to Run**
 Clone this repository or download the code.
 
 Make sure the diabetes.csv file is correctly placed in your path.
@@ -73,9 +73,9 @@ _Run the Python script:_
 python diabetes_prediction.py
 The script will output the performance of each model.
 
-⚠️ **_Note_**
+⚠️ **Note**
 Label encoding was applied to numerical features, which is not typically recommended. A better approach would be to leave continuous values as-is or use binning/discretization only if required.
 MinMaxScaler was correctly applied to the training set but should use transform() on the test set instead of fit_transform() to avoid data leakage.
 
-📜 _License_
+📜 **License**
 This project is open-source and available for academic and non-commercial use.
